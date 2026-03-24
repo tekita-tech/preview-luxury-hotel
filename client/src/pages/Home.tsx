@@ -31,30 +31,29 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="pt-16 pb-0 relative overflow-hidden">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 items-center min-h-screen">
-          {/* Left Content */}
-          <div className="px-6 lg:px-12 py-12 lg:py-20 flex flex-col justify-center">
-            <div className="font-accent text-2xl text-ocean mb-4">Welcome to Hotel Paradise</div>
-            <h1 className="font-display text-5xl lg:text-6xl leading-tight mb-6">
+        <div className="relative min-h-screen flex items-center justify-center">
+          {/* Video Background */}
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover"
+          >
+            <source src="/luxury-hotel-hero.mp4" type="video/mp4" />
+          </video>
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-black/40"></div>
+
+          {/* Hero Content */}
+          <div className="relative z-10 text-center text-white px-6 lg:px-12 py-20">
+            <div className="font-accent text-2xl text-sand mb-4">Welcome to Hotel Paradise</div>
+            <h1 className="font-display text-5xl lg:text-7xl leading-tight mb-6">
               Luxury Hotel Experience
             </h1>
-            <p className="text-lg text-gray-600 mb-8 leading-relaxed max-w-lg">
+            <p className="text-lg text-white/85 leading-relaxed max-w-2xl mx-auto">
               Experience world-class hospitality, exceptional dining, and premium amenities. Your perfect getaway awaits at our luxury destination.
             </p>
-            <div className="flex gap-4">
-              <Button className="btn-luxury">Explore More</Button>
-              <Button variant="outline" className="px-6 py-3">Learn About Us</Button>
-            </div>
-          </div>
-
-          {/* Right Image */}
-          <div className="relative h-screen lg:h-auto">
-            <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663470810298/YBehhQJxNGb2ADEfjUW2Ks/luxury-hotel-hero-WVn3QZtc2UMVWeEBuESQoP.webp"
-              alt="Luxury hotel lobby"
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-l from-transparent to-cream/20"></div>
           </div>
         </div>
       </section>
