@@ -48,7 +48,7 @@ export default function Home() {
           {/* Hero Content */}
           <div className="relative z-10 text-center text-white px-6 lg:px-12 py-20">
             <div className="font-accent text-2xl text-sand mb-4">Welcome to Hotel Paradise</div>
-            <h1 className="font-display text-5xl lg:text-7xl leading-tight mb-6">
+            <h1 className="font-display text-5xl lg:text-7xl leading-tight mb-6 text-white">
               Luxury Hotel Experience
             </h1>
             <p className="text-lg text-white/85 leading-relaxed max-w-2xl mx-auto">
