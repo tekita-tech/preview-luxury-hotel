@@ -78,9 +78,6 @@ export default function Home() {
               { name: "Standard Room", desc: "Comfortable room with city or garden view", price: "$180" },
               { name: "Deluxe Room", desc: "Spacious room with premium bedding and amenities", price: "$280" },
               { name: "Suite", desc: "Separate living area with modern furnishings", price: "$420" },
-              { name: "Ocean View Suite", desc: "Premium suite with stunning ocean views", price: "$580" },
-              { name: "Presidential Suite", desc: "Luxury accommodations with exclusive amenities", price: "$950" },
-              { name: "Family Suite", desc: "Two bedrooms perfect for families and groups", price: "$650" },
             ].map((room, idx) => (
               <div key={idx} className="card-luxury group overflow-hidden">
                 <div className="aspect-square bg-gradient-to-br from-sand to-ocean/20 flex items-center justify-center">
