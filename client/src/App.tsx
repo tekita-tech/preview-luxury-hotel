@@ -5,6 +5,7 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
+import Navbar from "./components/Navbar";
 
 
 function Router() {
@@ -27,10 +28,14 @@ function App() {
   return (
     <ErrorBoundary>
       <ThemeProvider
-        defaultTheme="light"
+        defaultTheme="dark"
       >
         <TooltipProvider>
           <Toaster />
+          <Navbar 
+            logoUrl="https://d2xsxph8kpxj0f.cloudfront.net/310519663470810298/7YPvFrBLg7mNjq8BXWgrfv/tekita-logo_66a3ba0a.webp"
+            companyName="Tekita"
+          />
           <Router />
         </TooltipProvider>
       </ThemeProvider>

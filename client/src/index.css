@@ -43,81 +43,76 @@
 }
 
 :root {
-  /* Minimalist Tropical Luxury Design System */
-  --primary: oklch(0.35 0.15 250);
-  --primary-foreground: oklch(0.98 0.001 0);
-  --sidebar-primary: oklch(0.35 0.15 250);
-  --sidebar-primary-foreground: oklch(0.98 0.001 0);
-  --chart-1: oklch(0.55 0.15 250);
-  --chart-2: oklch(0.45 0.15 250);
-  --chart-3: oklch(0.35 0.15 250);
-  --chart-4: oklch(0.30 0.12 250);
-  --chart-5: oklch(0.25 0.10 250);
+  /* Cyberpunk Minimalist Color Palette */
+  --primary: #00d9ff; /* Electric cyan */
+  --primary-foreground: #000000;
+  --sidebar-primary: #00d9ff;
+  --sidebar-primary-foreground: #000000;
+  --chart-1: #00d9ff;
+  --chart-2: #ff006e;
+  --chart-3: #00d9ff;
+  --chart-4: #ff006e;
+  --chart-5: #00d9ff;
   --radius: 0.5rem;
-  --background: oklch(0.98 0.001 0);
-  --foreground: oklch(0.15 0.02 65);
-  --card: oklch(0.99 0.001 0);
-  --card-foreground: oklch(0.15 0.02 65);
-  --popover: oklch(0.99 0.001 0);
-  --popover-foreground: oklch(0.15 0.02 65);
-  --secondary: oklch(0.88 0.02 65);
-  --secondary-foreground: oklch(0.25 0.02 65);
-  --muted: oklch(0.92 0.01 65);
-  --muted-foreground: oklch(0.50 0.02 65);
-  --accent: oklch(0.55 0.15 250);
-  --accent-foreground: oklch(0.98 0.001 0);
-  --destructive: oklch(0.60 0.20 25);
-  --destructive-foreground: oklch(0.98 0.001 0);
-  --border: oklch(0.92 0.01 65);
-  --input: oklch(0.95 0.01 65);
-  --ring: oklch(0.55 0.15 250);
-  --sidebar: oklch(0.98 0.001 0);
-  --sidebar-foreground: oklch(0.15 0.02 65);
-  --sidebar-accent: oklch(0.55 0.15 250);
-  --sidebar-accent-foreground: oklch(0.98 0.001 0);
-  --sidebar-border: oklch(0.92 0.01 65);
-  --sidebar-ring: oklch(0.55 0.15 250);
-
-  /* Tropical Luxury Colors */
-  --sand: oklch(0.82 0.08 70);
-  --ocean: oklch(0.50 0.15 250);
-  --charcoal: oklch(0.15 0.02 65);
-  --cream: oklch(0.98 0.001 0);
+  --background: #000000; /* Pure black */
+  --foreground: #e0e0e0; /* Light grey */
+  --card: #0a0a0a; /* Slightly lighter black */
+  --card-foreground: #e0e0e0;
+  --popover: #0a0a0a;
+  --popover-foreground: #e0e0e0;
+  --secondary: #1a1a1a; /* Charcoal */
+  --secondary-foreground: #00d9ff;
+  --muted: #2a2a2a; /* Dark grey */
+  --muted-foreground: #808080; /* Medium grey */
+  --accent: #00d9ff; /* Electric cyan */
+  --accent-foreground: #000000;
+  --destructive: #ff006e; /* Neon magenta */
+  --destructive-foreground: #000000;
+  --border: #1a1a1a; /* Dark border */
+  --input: #0a0a0a;
+  --ring: #00d9ff; /* Cyan ring */
+  --sidebar: #000000;
+  --sidebar-foreground: #e0e0e0;
+  --sidebar-accent: #00d9ff;
+  --sidebar-accent-foreground: #000000;
+  --sidebar-border: #1a1a1a;
+  --sidebar-ring: #00d9ff;
 }
 
 .dark {
-  --primary: var(--color-blue-700);
-  --primary-foreground: var(--color-blue-50);
-  --sidebar-primary: var(--color-blue-500);
-  --sidebar-primary-foreground: var(--color-blue-50);
-  --background: oklch(0.141 0.005 285.823);
-  --foreground: oklch(0.85 0.005 65);
-  --card: oklch(0.21 0.006 285.885);
-  --card-foreground: oklch(0.85 0.005 65);
-  --popover: oklch(0.21 0.006 285.885);
-  --popover-foreground: oklch(0.85 0.005 65);
-  --secondary: oklch(0.24 0.006 286.033);
-  --secondary-foreground: oklch(0.7 0.005 65);
-  --muted: oklch(0.274 0.006 286.033);
-  --muted-foreground: oklch(0.705 0.015 286.067);
-  --accent: oklch(0.274 0.006 286.033);
-  --accent-foreground: oklch(0.92 0.005 65);
-  --destructive: oklch(0.704 0.191 22.216);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(1 0 0 / 10%);
-  --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.488 0.243 264.376);
-  --chart-1: var(--color-blue-300);
-  --chart-2: var(--color-blue-500);
-  --chart-3: var(--color-blue-600);
-  --chart-4: var(--color-blue-700);
-  --chart-5: var(--color-blue-800);
-  --sidebar: oklch(0.21 0.006 285.885);
-  --sidebar-foreground: oklch(0.85 0.005 65);
-  --sidebar-accent: oklch(0.274 0.006 286.033);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.488 0.243 264.376);
+  /* Dark mode is the default for cyberpunk aesthetic */
+  --primary: #00d9ff;
+  --primary-foreground: #000000;
+  --sidebar-primary: #00d9ff;
+  --sidebar-primary-foreground: #000000;
+  --background: #000000;
+  --foreground: #e0e0e0;
+  --card: #0a0a0a;
+  --card-foreground: #e0e0e0;
+  --popover: #0a0a0a;
+  --popover-foreground: #e0e0e0;
+  --secondary: #1a1a1a;
+  --secondary-foreground: #00d9ff;
+  --muted: #2a2a2a;
+  --muted-foreground: #808080;
+  --accent: #00d9ff;
+  --accent-foreground: #000000;
+  --destructive: #ff006e;
+  --destructive-foreground: #000000;
+  --border: #1a1a1a;
+  --input: #0a0a0a;
+  --ring: #00d9ff;
+  --chart-1: #00d9ff;
+  --chart-2: #ff006e;
+  --chart-3: #00d9ff;
+  --chart-4: #ff006e;
+  --chart-5: #00d9ff;
+  --sidebar: #000000;
+  --sidebar-foreground: #e0e0e0;
+  --sidebar-accent: #00d9ff;
+  --sidebar-accent-foreground: #000000;
+  --sidebar-border: #1a1a1a;
+  --sidebar-ring: #00d9ff;
 }
 
 @layer base {
@@ -126,6 +121,21 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+  }
+  h1 {
+    @apply text-5xl md:text-6xl font-bold;
+  }
+  h2 {
+    @apply text-4xl md:text-5xl font-bold;
+  }
+  h3 {
+    @apply text-2xl md:text-3xl font-bold;
   }
   button:not(:disabled),
   [role="button"]:not([aria-disabled="true"]),
@@ -141,32 +151,24 @@
 }
 
 @layer components {
-  /* Typography System - Minimalist Tropical Luxury */
-  .font-display {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    letter-spacing: -0.5px;
-    color: var(--charcoal);
-  }
-
-  .font-body {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    color: var(--charcoal);
-  }
-
-  .font-accent {
-    font-family: 'Caveat', cursive;
-    font-weight: 700;
-    color: var(--ocean);
-  }
-
-  /* Custom container utility */
+  /**
+   * Custom container utility that centers content and adds responsive padding.
+   *
+   * This overrides Tailwind's default container behavior to:
+   * - Auto-center content (mx-auto)
+   * - Add responsive horizontal padding
+   * - Set max-width for large screens
+   *
+   * Usage: <div className="container">...</div>
+   *
+   * For custom widths, use max-w-* utilities directly:
+   * <div className="max-w-6xl mx-auto px-4">...</div>
+   */
   .container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1rem;
+    padding-left: 1rem; /* 16px - mobile padding */
     padding-right: 1rem;
   }
 
@@ -175,35 +177,44 @@
     min-width: 0;
   }
 
+  /* Cyberpunk Design Components */
+  .glow-cyan {
+    box-shadow: 0 0 20px rgba(0, 217, 255, 0.3), 0 0 40px rgba(0, 217, 255, 0.1);
+  }
+
+  .glow-magenta {
+    box-shadow: 0 0 20px rgba(255, 0, 110, 0.3), 0 0 40px rgba(255, 0, 110, 0.1);
+  }
+
+  .neon-border-cyan {
+    border: 1px solid #00d9ff;
+    box-shadow: inset 0 0 10px rgba(0, 217, 255, 0.1);
+  }
+
+  .neon-border-magenta {
+    border: 1px solid #ff006e;
+    box-shadow: inset 0 0 10px rgba(255, 0, 110, 0.1);
+  }
+
+  .tech-grid {
+    background-image:
+      linear-gradient(rgba(0, 217, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 217, 255, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+
   @media (min-width: 640px) {
     .container {
-      padding-left: 1.5rem;
+      padding-left: 1.5rem; /* 24px - tablet padding */
       padding-right: 1.5rem;
     }
   }
 
   @media (min-width: 1024px) {
     .container {
-      padding-left: 2rem;
+      padding-left: 2rem; /* 32px - desktop padding */
       padding-right: 2rem;
-      max-width: 1280px;
+      max-width: 1280px; /* Standard content width */
     }
-  }
-
-  /* Minimalist Tropical Luxury Components */
-  .card-luxury {
-    @apply rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 bg-card text-card-foreground;
-  }
-
-  .btn-luxury {
-    @apply px-6 py-3 rounded-md font-medium transition-all duration-300 bg-accent text-accent-foreground hover:scale-105 hover:shadow-md;
-  }
-
-  .section-divider {
-    @apply h-px bg-gradient-to-r from-transparent via-border to-transparent my-16;
-  }
-
-  .wave-divider {
-    @apply w-full h-24 bg-no-repeat bg-cover;
   }
 }
